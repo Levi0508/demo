@@ -12,7 +12,7 @@ export const PageHelloWorld: React.FC = () => {
     <div>
       <p>PageHelloWorld</p>
       <p>This project was generated with by react-monorepo-project-template</p>
-      <Button onClick={fn}>123</Button>
+      <Button onClick={fn}>锋酱</Button>
     </div>
   )
 }
