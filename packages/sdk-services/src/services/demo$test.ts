@@ -6,7 +6,7 @@ export interface IResponseResource {}
 
 export const demo$test = (data: IRequestResource) =>
   httpClient.request<ResponsePacket<IResponseResource>>({
-    url: '/cats/findOne',
-    method: 'POST',
+    url: '/users/findAll',
+    method: 'GET',
     data,
   })

@@ -11,6 +11,7 @@ export interface ResponsePacket<T = any> {
 
 export const httpClient = new HttpClient({
   baseURL: ConfigContextHolder.getContext()?.get(SERVER_BASE_API),
+  // baseURL: 'http://1.94.7.79:3000',
 
   timeout: 5000,
   headers: {

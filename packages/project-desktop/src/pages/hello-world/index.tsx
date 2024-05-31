@@ -9,10 +9,10 @@ export const PageHelloWorld: React.FC = () => {
   }
 
   return (
-    <div>
-      <p>PageHelloWorld</p>
-      <p>This project was generated with by react-monorepo-project-template</p>
-      <Button onClick={fn}>锋酱</Button>
+    <div style={{ textAlign: 'center' }}>
+      <h1>锋酱的test页面</h1>
+      <h3>请按下方按钮调用nest接口</h3>
+      <Button onClick={fn}>我是按钮</Button>
     </div>
   )
 }
